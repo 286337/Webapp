@@ -1,0 +1,67 @@
+html, body{
+    height:100%;
+}
+body{
+    background-image: linear-gradient(to bottom, green, #000);
+    height: 100%;
+    text-align: center;
+}
+.addscore{
+    text-align:center;
+    padding: 10px 50px;
+    background-color: green;
+    margin: 100px auto;
+    display:inline-block;
+    counter-set: 0;
+    border-radius: 20%
+}
+
+.addpenalties{
+    text-align:center;
+    padding: 10px 20px;
+    background-color: red;
+    margin: 100px auto;
+    display:inline-block;
+    counter-set: 0;
+    border-radius: 20%
+}
+
+h1{
+    text-align:center
+}
+
+.wrapper1{
+    width:100%;
+    max-width:600px;
+    display: inline-block;
+    background-color:aqua;
+    border-radius: 20%
+}
+
+.addscore2{
+    text-align:center;
+    padding: 10px 50px;
+    background-color: green;
+    margin: 100px auto;
+    display:inline-block;
+    counter-set: 0;
+    border-radius: 20%
+}
+
+.addpenalties2{
+    text-align:center;
+    padding: 10px 20px;
+    background-color: red;
+    margin: 100px auto;
+    display:inline-block;
+    counter-set: 0;
+    border-radius: 20%
+}
+
+.wrapper2{
+    width:100%;
+    max-width:600px;
+    display: inline-block;
+    background-color:darkred;
+    border-radius: 20%
+}
