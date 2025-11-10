@@ -65,3 +65,48 @@ h1{
     background-color:darkred;
     border-radius: 20%
 }
+
+.score-container{
+    text-align:center;
+    font-size:50px
+}
+
+button{
+    padding: 5px 20px;
+    color: grey;
+
+}
+
+.timer-container {
+    padding: 10px 10px;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.digit, .separator {
+    font-size: 4em; /* Large size for main digits */
+    color: black; /* Classic digital green */
+    display: inline-block;
+}
+
+.separator {
+    margin: 0 5px;
+    font-size: 4em 
+}
+
+.secret-container {
+    padding: 20px;
+    margin: 30px auto;
+    width: fit-content;
+    background-color: blue;
+    border: 5px solid white;
+    border-radius: 15px;
+    color: black;
+    /* 🚨 THIS IS THE CRITICAL LINE: Hides the message by default */
+    display: none; 
+}
+
+.secret-container h2 {
+    color: darkred;
+    font-size: 2em;
+}
