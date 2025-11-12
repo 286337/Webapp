@@ -45,7 +45,7 @@ let timerInterval; // Stores the interval ID
 // 3. Initialize the display to 00:30.00 (Crucial for visual setup)
 minutesDisplay.textContent = '00';
 secondsDisplay.textContent = '30';
-millisecondsDisplay.textContent = '00';
+//millisecondsDisplay.textContent = '00';
 
 // 4. Define the function to START the countdown
 function startCountdown() {
@@ -132,7 +132,7 @@ startButton.addEventListener('click', startCountdown);
             // Use ternary operator for concise show/hide logic
             messageElement.style.display = isSecretActive ? 'block' : 'none';
             if (isSecretActive) {
-                console.log("SECRET UNLOCKED!");
+                console.log("WHAT HOW DID YOU KNOW???");
             }
         }
     }
@@ -155,4 +155,5 @@ startButton.addEventListener('click', startCountdown);
         checkSecretCode();
     };
 
+    
 })(); // End of Score Counter Logic IIFE

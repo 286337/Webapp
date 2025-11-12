@@ -27,65 +27,63 @@
         <h1>Auto Rule</h1>
 
        <div class="timer-container">
-        <span id="minutes" class="digit">00</span>
-        <span class="seperator">:</span>
-        <span id="seconds" class="digit">00</span>
-        <span class="seperator"></span>
-       <div class="controls">
-        <button id="start-button">Start</button>
-       </div>
+            <span id="minutes" class="digit">00</span>
+            <span class="seperator">:</span>
+            <span id="seconds" class="digit">00</span>
+            <span class="seperator"></span>
+        <div class="controls">
+            <button id="start-button">Start</button>
+        </div>
+        
+        </div>
+
     
-    </div>
-
-     
-
-       <script src="script.js"></script>
        
        
        
        
         <div class="wrapper1">
-        <div class="addscore" id="addscore">
-            <h1>SCORE</h1>
-            <button onclick="incrementCounter('score1')">+1</button> 
-            <div class="score-container">
-                 <span class="score-label"></span>
-                <span id="score1" class="score-value">0</span> </div>
+            <div class="addscore" id="addscore">
+                <h1>SCORE</h1>
+                <button onclick="incrementCounter('score1')">+1</button> 
+                <div class="score-container">
+                    <span class="score-label"></span>
+                    <span id="score1" class="score-value">0</span> </div>
+            </div>
+
+            <div class="addpenalties" id="addpenalties">
+                <h1>PENALTIES</h1>
+                <button onclick="incrementCounter('penalty1')">+1</button>
+                <div class="score-container">
+                    <span class="score-label"></span>
+                    <span id="penalty1" class="score-value">0</span> </div>
+            </div>
         </div>
 
-        <div class="addpenalties" id="addpenalties">
-            <h1>PENALTIES</h1>
-            <button onclick="incrementCounter('penalty1')">+1</button>
-            <div class="score-container">
-                 <span class="score-label"></span>
-                <span id="penalty1" class="score-value">0</span> </div>
-        </div>
-    </div>
+        <div class="wrapper2">
+            <div class="addscore2" id="addscore2">
+                <h1>SCORE</h1>
+                <button onclick="incrementCounter('score2')">+1</button>
+                <div class="score-container">
+                    <span class="score-label"></span>
+                    <span id="score2" class="score-value">0</span> </div>
+            </div>
 
-    <div class="wrapper2">
-        <div class="addscore2" id="addscore2">
-            <h1>SCORE</h1>
-            <button onclick="incrementCounter('score2')">+1</button>
-            <div class="score-container">
-                 <span class="score-label"></span>
-                <span id="score2" class="score-value">0</span> </div>
+            <div class="addpenalties2" id="addpenalties2">
+                <h1>PENALTIES</h1>
+                <button onclick="incrementCounter('penalty2')">+1</button>
+                <div class="score-container">
+                    <span class="score-label"></span>
+                    <span id="penalty2" class="score-value">0</span> </div>
+            </div> 
         </div>
 
-        <div class="addpenalties2" id="addpenalties2">
-            <h1>PENALTIES</h1>
-            <button onclick="incrementCounter('penalty2')">+1</button>
-            <div class="score-container">
-                 <span class="score-label"></span>
-                <span id="penalty2" class="score-value">0</span> </div>
-        </div> 
-    </div>
+        <div id="secret-message" class="secret-container">
+            <h2>No Way. You did NOT just break the code.</h2>
+            <p>I don't know if you cheated or not, but if you didn't, go treat yourself to the mall. You deserve it.</p>
+        </div>
+
         
         <script src="scripts.js" async defer></script>
     </body>
 </html>
-
-
-<div id="secret-message" class="secret-container">
-    <h2>✨ How did you know?</h2>
-    <p>Prehaps you know more about my kinks than I do. Go get yourself a cookie or something. You deserve it.</p>
-</div>

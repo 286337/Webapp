@@ -101,12 +101,12 @@ button{
     background-color: blue;
     border: 5px solid white;
     border-radius: 15px;
-    color: black;
+    color: White;
     /* 🚨 THIS IS THE CRITICAL LINE: Hides the message by default */
     display: none; 
 }
 
 .secret-container h2 {
-    color: darkred;
+    color: yellow;
     font-size: 2em;
 }
